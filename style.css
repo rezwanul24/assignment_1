@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body h1 {
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_area{
+    background-image: url(./images/donation2.jpg);
+    height: 669px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header_text{
+    text-align: center;
+}
+
+.header_text h1{
+    font-size: 60px;
+    color: tomato;
+    font-weight: bold;
+}
+
+.header_text p{
+    font-size: 25px;
+    background-color: black;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.header_text a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: #fff;
+    
+    
+}
+
+.donate_today{
+    text-align: center;
+    margin-top: 40px;
+    height: 669px;
+}
+
+.donate_today h1{
+    font-size: 50px;
+}
+
+.donate_today p {
+    font-size: 20px;
+}
+
+.donate_today a{
+    padding: 40px 20px;
+    background-color: rgb(230, 230, 230);
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.donate_today .border_color{
+    border: 2px solid salmon;
+    color: salmon;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input[type="number"]{
+    outline: none;
+    border: none;
+    width: 55%;
+    border-bottom: 1px solid black;
+}
+
+.donate_today input[type="submit"] {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.donate_plan {
+    height: 669px;
+    text-align: center;
+}
+
+.donate_plan h1{
+    font-size: 35px;
+}
+.donate_plan p{
+    font-size: 20px;
+}
+
+.donate_feature{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.donate_plan .food{
+    width: 350px;
+    height: 350px;
+    background-color: #EDF5F6;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.donate_plan .shelter{
+    width: 350px;
+    height: 350px;
+    background-color: #FFEEEE;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+
+.donate_plan .education{
+    width: 350px;
+    height: 350px;
+    background-color: #FFF4D6;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+ 
+.list{
+    height: 669px;
+    margin-top: 30px;
+    background-color: tomato;
+
+}
+
+.list h1{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+ol {
+    counter-reset: li; 
+    list-style: none; 
+    padding: 0;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    width: 60%;
+    margin: 0 auto;
+    text-transform: uppercase;
+  }
+  
+  ol a {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    margin: 1.5em 0;
+    background: #DAD2CA;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: .3s ease-out;
+    
+  }
+  
+  ol a:hover { background: #E9E4E0; }
+  ol a:hover:before { transform: rotate(360deg); }
+  ol a:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #f9dd94;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+  }
+
+
+  .updates{
+    height: 669px;
+    text-align: center;
+  }
+
+  .updates h1{
+    font-size: 45px;
+  }
+
+  .updates .email_submit_form{
+    width: 50%;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .email_submit_form input[type="email"]{
+    border: none;
+    outline: none;
+    background-color: #D9D9D9;
+    width: 275px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px 0px 0px 5px;
+  
+  }
+
+  .email_submit_form input[type="submit"]{
+    border: none;
+    outline: none;
+    background-color: #FF5959;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    width: 157px;
+    height: 48px;
+    margin: 0;
+  }
+
+  footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B0D17;
+    height: 200px;
+    width: 100%;
+    color: #fff;
+  }
+
+  footer h3{
+    margin-top: 50px;
+  }
